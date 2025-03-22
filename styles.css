@@ -689,6 +689,26 @@ footer a {
         font-size: 0.9em;
     }
 }
+.boton-ver-productos:hover {
+    background-color: #333333; /* Un negro más claro */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    animation: fadeScale 0.4s ease-in-out;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.producto {
+    animation: fadeInUp 0.8s ease-in-out;
+}
+
 
 
 
