@@ -689,6 +689,12 @@ footer a {
         font-size: 0.9em;
     }
 }
+@keyframes fadeScale {
+    0% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1.05); opacity: 0.9; }
+}
+
 .boton-ver-productos:hover {
     background-color: #333333; /* Un negro más claro */
     transform: scale(1.1); /* Aumenta ligeramente el tamaño */
@@ -708,17 +714,7 @@ footer a {
 .producto {
     animation: fadeInUp 0.8s ease-in-out;
 }
-@keyframes fadeScale {
-    0% { transform: scale(1); opacity: 0.8; }
-    50% { transform: scale(1.1); opacity: 1; }
-    100% { transform: scale(1.05); opacity: 0.9; }
-}
 
-.boton-ver-productos:hover {
-    background-color: #333333; /* Un negro más claro */
-    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
-    animation: fadeScale 0.4s ease-in-out;
-}
 
 
 
